@@ -220,9 +220,12 @@ footer{
     padding: 15px;
     margin: 100px 20px 0px 20px;
 }
-@media screen and (min-width:375px) {
+@media screen and (min-width:360px) {
+    header{
+        margin: auto;
+    }
     #logo{
-        width: 100px;
+        width: 95px;
         margin-top: 10px;
     }
 
@@ -238,17 +241,23 @@ footer{
         margin-bottom: 15px;
     }
     .top-menu > * {
-        width: 70px;
+        width: 65px;
         text-align: center;
     }
     .top-menu a, span {
-        font-size: 17px;
+        font-size: 15px;
     }
     .main{
         margin: 0px 50px 20px 50px;
+        font-size: 1.2em;
     }
     .about-me{
         margin: auto;
+        width:95%;
+        font-size: 1.2em;
+    }
+    table img{
+        width:160px;
     }
 }
 @media screen and (min-width:1280px){

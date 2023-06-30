@@ -150,6 +150,11 @@ img{
 .main{
     text-align: justify;
 }
+.divider{
+    display:block; 
+    margin-left: auto; 
+    margin-right: auto
+}
 .about-me{
     text-align: center;
 }
@@ -225,7 +230,7 @@ footer{
         margin: auto;
     }
     #logo{
-        width: 95px;
+        width: 110px;
         margin-top: 10px;
     }
 
@@ -250,6 +255,9 @@ footer{
     .main{
         margin: 0px 50px 20px 50px;
         font-size: 1.2em;
+    }
+    .divider{
+        width: 56%;
     }
     .about-me{
         margin: auto;
@@ -283,10 +291,13 @@ footer{
     .main{
         margin:20px 0px 20px 10px; 
     }
+    .divider{
+        width: 40%; 
+    }
     .about-me{
         margin:20px 0px 20px 60px;
     }
-    
+ 
 }
  
  

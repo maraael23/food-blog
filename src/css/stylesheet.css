@@ -17,7 +17,7 @@ header {
     padding: 1.5em;
     box-shadow: 1px 1px 15px rgb(170, 170, 170);
     height:75px;
-    margin: 0px 20px 0px 20px;
+    
 }
 
 nav {
@@ -149,7 +149,12 @@ img{
 }
 .main{
     text-align: justify;
+    
 }
+.main p{
+    line-height: 30px;
+}
+
 .divider{
     display:block; 
     margin-left: auto; 
@@ -166,6 +171,7 @@ img{
 .about-me p{
     text-align: center;
     margin: 20px;
+    line-height: 30px;
 }
 .about-me button{
     border-radius: 50%;
@@ -269,6 +275,9 @@ footer{
     }
 }
 @media screen and (min-width:1280px){
+    header{
+        margin: 0px 20px 0px 20px;
+    }
     #logo {
         width: 150px;
         height: auto;

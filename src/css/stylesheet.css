@@ -226,15 +226,18 @@ footer{
     box-shadow: 1px 1px 15px rgb(170, 170, 170);
     text-align: center;
     padding: 15px;
-    margin: 100px 20px 0px 20px;
 }
 @media screen and (min-width:360px) {
     header{
         margin: auto;
     }
+    .top-menu a{
+        margin-right: 6px;
+    }
     #logo{
         width: 110px;
         margin-top: 10px;
+        margin-right: 30px;
     }
 
     #container{
@@ -270,6 +273,9 @@ footer{
     table img{
         width:160px;
     }
+    footer{
+        margin: auto;
+    }
 }
 @media screen and (min-width:1280px){
     header{
@@ -302,6 +308,9 @@ footer{
     }
     .about-me{
         margin:20px 0px 20px 60px;
+    }
+    footer{
+        margin: 100px 20px 0px 20px;
     }
  
 }

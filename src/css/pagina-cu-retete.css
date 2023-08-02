@@ -74,8 +74,6 @@ nav {
 .dropdown:hover span{
     background-color:  #efc7c2d3;
 }
-
-
 .top-menu a, span {
     list-style-type: none;
     display: inline;
@@ -87,6 +85,44 @@ nav {
     color: black;
     font-weight: 600;
 }
+.main{
+    font-size: 1.2em;
+}
+.card{
+    text-align: center;
+    background-color: #efc7c2d3; 
+    border-radius: 1%;
+    transition: all ease-in-out 0.3s;
+}
+.card:hover{
+    box-shadow: 1px 1px 15px rgb(170, 170, 170);
+}
+.food-img img{
+    width:100%;
+    border-radius: 1%;
+}
+.food-img h2{
+    text-align: left;
+    padding-left: 20px;
+    font-size:21px;
+    color:#562e2eee;
+}
+.food-img button{
+    width:50%;
+    border:none;
+    padding: 17px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    color:#f7b5ae;
+    transition-duration: 0.3s ;
+    
+}
+.food-img button:hover{
+    background-color: #f7b5ae;
+    color: white;
+}
 .main p{
     line-height: 30px;
 }
@@ -95,6 +131,9 @@ nav {
     display:block; 
     margin-left: auto; 
     margin-right: auto
+}
+.socials-links{
+    text-align: center;
 }
  button{
     border-radius: 50%;
@@ -105,8 +144,6 @@ nav {
 .icons{
     width: 50px;
 }
-
-
 footer{
     background-color: white;
     box-shadow: 1px 1px 15px rgb(170, 170, 170);
@@ -126,16 +163,8 @@ footer{
         margin-right: 30px;
     }
 
-    #container{
-        display:grid;
-        grid-template-columns: 100%;
-    }
-    .card{
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-        margin-top: 10px;
-        margin-bottom: 15px;
+    .main{
+        margin: 0px 50px 20px 50px;
     }
     .top-menu > * {
         width: 65px;
@@ -144,10 +173,7 @@ footer{
     .top-menu a, span {
         font-size: 15px;
     }
-    .main{
-        margin: 0px 50px 20px 50px;
-        font-size: 1.2em;
-    }
+   
     .divider{
         width: 56%;
     }
@@ -180,20 +206,27 @@ footer{
         grid-template-columns: 70% 30% ;
     }
     .main{
-        margin:20px 0px 20px 20px; 
+        margin:50px 0px 20px 20px; 
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    .card{
+        margin: 0px 30px 20px 0px
     }
     aside{
-        margin:50px 0px 20px 20px; 
+        margin:50px 20px 20px 20px; 
         font-size: 1.2em;
-        text-align: center;
+        text-align: justify;
     }
+    .checked {
+        color: orange;
+      }
     .divider{
         width: 20%; 
     }
     footer{
         margin: 100px 20px 0px 20px;
     }
- 
 }
  
  

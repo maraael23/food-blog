@@ -4,6 +4,9 @@
     --white:#ffffff;
     --black:#000000;
 }
+html {
+    scroll-behavior: smooth;
+  }
 *{
     font-family: 'Raleway', sans-serif;
 }
@@ -113,6 +116,35 @@ footer{
     text-align: center;
     padding: 15px;
 }
+#myBtn {
+    position: sticky;
+    width: 50px;
+    height: 50px;
+    bottom: 40px;
+    left: 2500px;
+    background-color: #A7C7E7;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    padding: 12px 12px 12px 12px;
+    text-align: center;
+    font-size: 18px;
+    opacity: 0.5;
+    transition: 0.3s;
+  }
+  #myBtn:hover {
+    opacity: 0.7
+  }
+  .arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  .up {
+    -webkit-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+  }
 @media screen and (min-width:360px) {
     header{
         margin: auto;

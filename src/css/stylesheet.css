@@ -203,12 +203,15 @@ table img{
   }
   .recipe-category{
     border: solid 3px #efc7c2d3;
-    width:80%;
     padding: 5px;
+    width: 80%;
   }
- 
+  /* .ads{
+    width: 60%;
+  } */
   .ads img{
     border: solid 3px #efc7c2d3;
+    width:70%;
   }
 footer{
     background-color: white;
@@ -291,6 +294,12 @@ footer{
     table img{
         width:160px;
     }
+    .recipe-category{
+        margin: 50px auto 20px auto;   
+    }
+    .ads img{
+        margin: 30px auto 20px auto;
+    }
     footer{
         margin: auto;
     }
@@ -328,8 +337,7 @@ footer{
         margin:20px 0px 20px 30px;
     }
     .recipe-category, .ads{
-        margin: 50px auto 20px auto;
-       
+        margin: 50px auto 20px auto;   
     }
     footer{
         margin: 100px 20px 0px 20px;

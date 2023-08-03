@@ -135,6 +135,9 @@ nav {
     margin-left: auto; 
     margin-right: auto
 }
+aside p{
+    line-height: 26px;
+}
 .socials-links{
     text-align: center;
 }
@@ -146,6 +149,22 @@ nav {
 }
 .icons{
     width: 50px;
+}
+.text{
+    padding: 30px;
+    margin:30px 0px 30px 0px;
+    background-color: #efc7c2d3;
+}
+.review{
+    background-color: #A7C7E7;
+    padding: 30px;
+    margin: 30px 0px 30px 0px;
+}
+.name > *{
+    display: inline;
+}
+.name img{
+    border-radius: 50%;
 }
 footer{
     background-color: white;
@@ -205,6 +224,9 @@ footer{
     .top-menu a, span {
         font-size: 15px;
     }
+    .card{
+        margin: 30px 30px 20px 0px
+    }
    
     .divider{
         width: 56%;
@@ -241,14 +263,14 @@ footer{
         margin:50px 0px 20px 20px; 
         display: grid;
         grid-template-columns: 33% 33% 33%;
+        grid-template-rows: auto auto auto auto;
     }
     .card{
-        margin: 0px 30px 20px 0px
+        margin: 30px 30px 20px 0px
     }
     aside{
         margin:50px 20px 20px 20px; 
         font-size: 1.2em;
-        text-align: justify;
     }
     .checked {
         color: orange;
@@ -262,4 +284,3 @@ footer{
 }
  
  
-

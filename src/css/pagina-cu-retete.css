@@ -96,6 +96,8 @@ nav {
     background-color: #efc7c2d3; 
     border-radius: 1%;
     transition: all ease-in-out 0.3s;
+    height: fit-content;
+    
 }
 .card:hover{
     box-shadow: 1px 1px 15px rgb(170, 170, 170);
@@ -151,7 +153,7 @@ aside p{
     width: 50px;
 }
 .text{
-    padding: 30px;
+    padding: 20px 30px;
     margin:30px 0px 30px 0px;
     background-color: #efc7c2d3;
 }
@@ -160,11 +162,23 @@ aside p{
     padding: 30px;
     margin: 30px 0px 30px 0px;
 }
+/* .name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
 .name > *{
     display: inline;
+    margin-right: 10px;
 }
 .name img{
     border-radius: 50%;
+}
+.name p{
+    font-weight: 800;
+}
+.stars{
+    margin-top: 10px;
 }
 footer{
     background-color: white;
@@ -263,10 +277,10 @@ footer{
         margin:50px 0px 20px 20px; 
         display: grid;
         grid-template-columns: 33% 33% 33%;
-        grid-template-rows: auto auto auto auto;
+        grid-template-rows: 25% 25% 25% 25%;
     }
     .card{
-        margin: 30px 30px 20px 0px
+        margin: 30px 30px 160px 0px
     }
     aside{
         margin:50px 20px 20px 20px; 

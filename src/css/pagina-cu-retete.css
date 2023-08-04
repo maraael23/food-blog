@@ -137,6 +137,13 @@ nav {
     margin-left: auto; 
     margin-right: auto
 }
+/* .ads{
+    width: 50%;
+}
+.ads img{
+    border: solid 3px #efc7c2d3;
+    width:70%;
+  } */
 aside p{
     line-height: 26px;
 }
@@ -162,17 +169,19 @@ aside p{
     padding: 30px;
     margin: 30px 0px 30px 0px;
 }
-/* .name{
+.name{
     display: flex;
     flex-direction: row;
+    align-items: center;
     flex-wrap: wrap;
-} */
+}
 .name > *{
     display: inline;
     margin-right: 10px;
 }
 .name img{
     border-radius: 50%;
+    width:40px;
 }
 .name p{
     font-weight: 800;

@@ -90,6 +90,11 @@ nav {
     color: black;
     font-weight: 600;
 }
+.food-poster img{
+    width:700px;  
+}
+ 
+
 .main p{
     line-height: 30px;
 }

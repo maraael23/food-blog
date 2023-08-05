@@ -93,12 +93,18 @@ nav {
 .food-poster img{
     width:700px;  
 }
- 
-
 .main p{
     line-height: 30px;
 }
-
+aside{
+    text-align: center;
+}
+.summary{
+    border: solid 3.5px  #f7b5ae;
+    padding: 30px;
+ 
+    text-align: left;
+}
 .divider{
     display:block; 
     margin-left: auto; 
@@ -217,12 +223,15 @@ footer{
         grid-template-columns: 70% 30% ;
     }
     .main{
-        margin:20px 0px 20px 20px; 
+        margin:50px 20px 20px 30px; 
+        text-align: justify;
     }
     aside{
-        margin:50px 0px 20px 20px; 
-        font-size: 1.2em;
-        text-align: center;
+        margin:50px 20px 20px 20px; 
+        font-size: 1.3em;
+    }
+    .summary{
+        margin-bottom: 20px;
     }
     .divider{
         width: 20%; 

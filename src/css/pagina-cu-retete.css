@@ -74,9 +74,6 @@ nav {
     height: max-content;
     width: 100%;
 }
-.dropdown:hover span{
-    background-color:  #efc7c2d3;
-}
 .top-menu a, span {
     list-style-type: none;
     display: inline;
@@ -112,19 +109,16 @@ nav {
     font-size:21px;
     color:#562e2eee;
 }
-.food-img button{
-    width:50%;
+.seerecipe{
     border:none;
     padding: 17px;
-    margin-bottom: 15px;
-    font-size: 15px;
     font-weight: 700;
     border-radius: 5px;
     color:#f7b5ae;
     transition-duration: 0.3s ;
     
 }
-.food-img button:hover{
+.seerecipe:hover{
     background-color: #f7b5ae;
     color: white;
 }
@@ -139,6 +133,7 @@ nav {
 }
 /* .ads{
     width: 50%;
+    display: inline;
 }
 .ads img{
     border: solid 3px #efc7c2d3;
@@ -160,14 +155,13 @@ aside p{
     width: 50px;
 }
 .text{
-    padding: 20px 30px;
-    margin:30px 0px 30px 0px;
+    padding: 25px 30px;
     background-color: #efc7c2d3;
 }
 .review{
     background-color: #A7C7E7;
     padding: 30px;
-    margin: 30px 0px 30px 0px;
+   
 }
 .name{
     display: flex;
@@ -189,6 +183,9 @@ aside p{
 .stars{
     margin-top: 10px;
 }
+.checked {
+    color: orange;
+  }
 footer{
     background-color: white;
     box-shadow: 1px 1px 15px rgb(170, 170, 170);
@@ -238,7 +235,10 @@ footer{
     }
 
     .main{
-        margin: 0px 50px 20px 50px;
+        margin: 30px 50px 20px 50px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
     }
     .top-menu > * {
         width: 65px;
@@ -248,16 +248,37 @@ footer{
         font-size: 15px;
     }
     .card{
-        margin: 30px 30px 20px 0px
+        margin: 30px 15px 20px 0px;
     }
-   
+    .seerecipe{
+        font-size: 0.7em;
+        font-weight: 800;
+        text-align: center;
+        width: 65%;
+        margin-bottom: 20px;
+    }
+    .food-img h2{
+        font-size: 1em;
+        text-align: left;
+    }
     .divider{
         width: 56%;
     }
-    
-    table img{
-        width:160px;
+    .text{
+        width: 75%;
+        margin: 0px auto;
     }
+    .review{
+        width: 75%;
+        margin: 10px auto 20px auto;
+    }
+    .aside{
+        text-align: center;
+    }
+    .socials-links{
+        margin: 20px;
+    }
+   
     footer{
         margin: auto;
     }
@@ -283,21 +304,44 @@ footer{
         grid-template-columns: 70% 30% ;
     }
     .main{
-        margin:50px 0px 20px 20px; 
+        margin:50px 0px 30px 20px; 
         display: grid;
         grid-template-columns: 33% 33% 33%;
         grid-template-rows: 25% 25% 25% 25%;
     }
     .card{
-        margin: 30px 30px 160px 0px
+        margin: 30px 30px 160px 10px;
+    }
+
+    .seerecipe{
+        width:50%;
+        margin-bottom: 15px;
+        font-size:0.9em;
+    }
+    .food-img h2{
+        font-size: 1.1em;
+        text-align: left;
+    }
+    .text{
+        margin:30px auto 30px auto;
+        width:85%;
+       
+    }
+    .dropdown:hover span{
+        background-color: #bcdeff;
+    }
+    .top-menu .links{
+        background-color: #bcdeff;
+    }
+    .review{
+        margin: 30px auto 30px auto;
+        width: 85%;
     }
     aside{
         margin:50px 20px 20px 20px; 
         font-size: 1.2em;
     }
-    .checked {
-        color: orange;
-      }
+   
     .divider{
         width: 20%; 
     }

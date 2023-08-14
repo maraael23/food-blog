@@ -74,6 +74,11 @@ nav {
     height: max-content;
     width: 100%;
 }
+.dropdown:hover span{
+    background-color:  #efc7c2d3;
+}
+
+
 .top-menu a, span {
     list-style-type: none;
     display: inline;
@@ -85,65 +90,28 @@ nav {
     color: black;
     font-weight: 600;
 }
-.main{
-    font-size: 1.2em;
+.food-poster{
+    background-color: #f7b5aeb9;
 }
-.card{
-    text-align: center;
-    background-color: #efc7c2d3; 
-    border-radius: 1%;
-    transition: all ease-in-out 0.3s;
-    height: fit-content;
-    
-}
-.card:hover{
-    box-shadow: 1px 1px 15px rgb(170, 170, 170);
-}
-.food-img img{
-    width:100%;
-    border-radius: 1%;
-}
-.food-img h2{
-    text-align: left;
-    padding-left: 20px;
-    font-size:21px;
-    color:#562e2eee;
-}
-.seerecipe{
-    border:none;
-    padding: 17px;
-    font-weight: 700;
-    border-radius: 5px;
-    color:#f7b5ae;
-    transition-duration: 0.3s ;
-    
-}
-.seerecipe:hover{
+.ingredients{
     background-color: #f7b5ae;
-    color: white;
 }
 .main p{
     line-height: 30px;
 }
-
+aside{
+    text-align: center;
+}
+.summary{
+    border: solid 3.5px  #f7b5ae;
+    padding: 30px;
+ 
+    text-align: left;
+}
 .divider{
     display:block; 
     margin-left: auto; 
     margin-right: auto
-}
-/* .ads{
-    width: 50%;
-    display: inline;
-}
-.ads img{
-    border: solid 3px #efc7c2d3;
-    width:70%;
-  } */
-aside p{
-    line-height: 26px;
-}
-.socials-links{
-    text-align: center;
 }
  button{
     border-radius: 50%;
@@ -154,38 +122,7 @@ aside p{
 .icons{
     width: 50px;
 }
-.text{
-    padding: 25px 30px;
-    background-color: #efc7c2d3;
-}
-.review{
-    background-color: #A7C7E7;
-    padding: 30px;
-   
-}
-.name{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.name > *{
-    display: inline;
-    margin-right: 10px;
-}
-.name img{
-    border-radius: 50%;
-    width:40px;
-}
-.name p{
-    font-weight: 800;
-}
-.stars{
-    margin-top: 10px;
-}
-.checked {
-    color: orange;
-  }
+
 footer{
     background-color: white;
     box-shadow: 1px 1px 15px rgb(170, 170, 170);
@@ -209,7 +146,7 @@ footer{
     transition: 0.3s;
   }
   #myBtn:hover {
-    opacity: 0.7
+    opacity: 0.7;
   }
   .arrow {
     border: solid white;
@@ -234,10 +171,17 @@ footer{
         margin-right: 30px;
     }
 
-    .main{
-        margin: 30px 50px 20px 50px;
-        display: grid;
-        grid-template-columns: 50% 50%;    }
+    #container{
+        display:grid;
+        grid-template-columns: 100%;
+    }
+    .card{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
     .top-menu > * {
         width: 65px;
         text-align: center;
@@ -245,38 +189,17 @@ footer{
     .top-menu a, span {
         font-size: 15px;
     }
-    .card{
-        margin: 30px 15px 20px 0px;
-    }
-    .seerecipe{
-        font-size: 0.7em;
-        font-weight: 800;
-        text-align: center;
-        width: 65%;
-        margin-bottom: 20px;
-    }
-    .food-img h2{
-        font-size: 1em;
-        text-align: left;
+    .main{
+        margin: 0px 50px 20px 50px;
+        font-size: 1.2em;
     }
     .divider{
         width: 56%;
     }
-    .text{
-        width: 75%;
-        margin: 0px auto;
+    
+    table img{
+        width:160px;
     }
-    .review{
-        width: 75%;
-        margin: 10px auto 20px auto;
-    }
-    .aside{
-        text-align: center;
-    }
-    .socials-links{
-        margin: 20px;
-    }
-   
     footer{
         margin: auto;
     }
@@ -302,50 +225,40 @@ footer{
         grid-template-columns: 70% 30% ;
     }
     .main{
-        margin:50px 0px 30px 20px; 
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-        grid-template-rows: 25% 25% 25% 25%;
+        margin:50px 20px 20px 20px; 
+        text-align: justify;
     }
-    .card{
-        margin: 30px 30px 160px 10px;
+    .food-poster{
+        width:90%;
+        border-radius: 3px;
+        margin-bottom: 50px;
     }
-
-    .seerecipe{
-        width:50%;
-        margin-bottom: 15px;
-        font-size:0.9em;
+    .food-poster img{
+        width: 100%;
+        border-radius: 3px 3px 0px 0px;
     }
-    .food-img h2{
-        font-size: 1.1em;
-        text-align: left;
+    .food-poster h1{
+        font-size: 1.5em;
+        padding: 5px 0px 25px 15px;
     }
-    .text{
-        margin:30px auto 30px auto;
-        width:85%;
-       
-    }
-    .dropdown:hover span{
-        background-color: #bcdeff;
-    }
-    .top-menu .links{
-        background-color: #bcdeff;
-    }
-    .review{
-        margin: 30px auto 30px auto;
-        width: 85%;
+    .checkbox{
+       color: #f7b5ae;
     }
     aside{
         margin:50px 20px 20px 20px; 
-        font-size: 1.2em;
+        font-size: 1.3em;
     }
-   
+    .summary{
+        margin-bottom: 20px;
+    }
     .divider{
         width: 20%; 
     }
     footer{
         margin: 100px 20px 0px 20px;
     }
+ 
 }
  
  
+

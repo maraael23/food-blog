@@ -95,6 +95,7 @@ nav {
 }
 .ingredients{
     background-color: #f7b5ae;
+    border-radius: 3px;
 }
 .main p{
     line-height: 30px;
@@ -227,9 +228,9 @@ footer{
     .main{
         margin:50px 20px 20px 20px; 
         text-align: justify;
+        width: 90%;
     }
     .food-poster{
-        width:90%;
         border-radius: 3px;
         margin-bottom: 50px;
     }
@@ -241,8 +242,12 @@ footer{
         font-size: 1.5em;
         padding: 5px 0px 25px 15px;
     }
-    .checkbox{
-       color: #f7b5ae;
+    .ingredients{
+        padding: 20px;
+        margin: 70px 0px 70px 0px;
+    }
+    .elements{
+        margin-top: 5px;
     }
     aside{
         margin:50px 20px 20px 20px; 
@@ -259,6 +264,3 @@ footer{
     }
  
 }
- 
- 
-

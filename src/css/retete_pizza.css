@@ -91,11 +91,14 @@ nav {
     font-weight: 600;
 }
 .food-poster{
-    background-color: #f7b5aeb9;
+    background-color:#f7b5ae;
+    border-radius: 3px;
+  
 }
 .ingredients{
-    background-color: #f7b5ae;
+    border: solid 4px #c1daf5;
     border-radius: 3px;
+    padding: 20px;
 }
 .main p{
     line-height: 30px;
@@ -103,12 +106,17 @@ nav {
 aside{
     text-align: center;
 }
+
 .summary{
-    border: solid 3.5px  #f7b5ae;
+    /* border: solid 3.5px  #f7b5ae; */
+    background-color:  #fbd4d0;
     padding: 30px;
- 
     text-align: left;
 }
+.ads img{
+    border: solid 3px #efc7c2d3;
+    width:85%;
+  }
 .divider{
     display:block; 
     margin-left: auto; 
@@ -191,15 +199,36 @@ footer{
         font-size: 15px;
     }
     .main{
-        margin: 0px 50px 20px 50px;
+        margin: 50px 50px 20px 50px;
         font-size: 1.2em;
+       
+    }
+    .food-poster h1{
+        font-size: 1.3em;
+        padding: 0px 10px 20px 10px;
+    }
+    .food-poster{
+        width: 100%;
+        margin: auto;
+    }
+    .food-poster img{
+        width: 100%;
+    }
+    .detalii-reteta{
+        margin-bottom: 40px;
+    }
+    .summary{
+        margin-top: 50px;
+    }
+    .ingredients{
+        margin-top: 50px;
     }
     .divider{
         width: 56%;
     }
     
-    table img{
-        width:160px;
+    .ads img{
+        margin: 30px auto 30px auto;
     }
     footer{
         margin: auto;
@@ -226,38 +255,45 @@ footer{
         grid-template-columns: 70% 30% ;
     }
     .main{
-        margin:50px 20px 20px 20px; 
+        margin:50px 0px 20px 20px; 
         text-align: justify;
         width: 90%;
     }
     .food-poster{
-        border-radius: 3px;
         margin-bottom: 50px;
+        width: 90%;
     }
     .food-poster img{
         width: 100%;
         border-radius: 3px 3px 0px 0px;
     }
     .food-poster h1{
-        font-size: 1.5em;
+        font-size: 1.4em;
         padding: 5px 0px 25px 15px;
     }
-    .ingredients{
-        padding: 20px;
-        margin: 70px 0px 70px 0px;
+    .detalii-reteta{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 90%;
+        margin-bottom: 60px;
+
+    }
+    .summary{
+        height: fit-content;
+        width:75%;
     }
     .elements{
         margin-top: 5px;
     }
     aside{
-        margin:50px 20px 20px 20px; 
+        margin:50px 10px 20px 10px ; 
         font-size: 1.3em;
-    }
-    .summary{
-        margin-bottom: 20px;
     }
     .divider{
         width: 20%; 
+    }
+    .ads img{
+        margin-bottom: 30px;
     }
     footer{
         margin: 100px 20px 0px 20px;

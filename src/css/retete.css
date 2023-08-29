@@ -111,7 +111,6 @@ nav {
 }
 .seerecipe{
     border:none;
-    padding: 17px;
     font-weight: 700;
     border-radius: 5px;
     color:#f7b5ae;
@@ -131,14 +130,6 @@ nav {
     margin-left: auto; 
     margin-right: auto
 }
-/* .ads{
-    width: 50%;
-    display: inline;
-}
-.ads img{
-    border: solid 3px #efc7c2d3;
-    width:70%;
-  } */
 aside p{
     line-height: 26px;
 }
@@ -252,12 +243,15 @@ footer{
         font-size: 0.7em;
         font-weight: 800;
         text-align: center;
-        width: 65%;
-        margin-bottom: 20px;
+        height: 50px;
+        width: 75%;
+        margin: 15px;
+        
     }
     .food-img h2{
-        font-size: 1em;
+        font-size: 0.8em;
         text-align: left;
+        margin-right: 15px;
     }
     .divider{
         width: 56%;
@@ -315,6 +309,7 @@ footer{
         width:50%;
         margin-bottom: 15px;
         font-size:0.9em;
+        padding: 17px;
     }
     .food-img h2{
         font-size: 1.1em;

@@ -100,7 +100,7 @@ nav {
     border-radius: 3px;
     padding: 20px;
 }
-.main p{
+main p{
     line-height: 30px;
 }
 aside{
@@ -198,13 +198,20 @@ footer{
     .top-menu a, span {
         font-size: 15px;
     }
-    .main{
-        margin: 50px 50px 20px 50px;
+    main{
+        margin: 50px 0px 20px 10px;
         font-size: 1.2em;
-       
+        width: 95%; 
+    }
+    main h2{
+        font-size: 1.3em;
+        margin-left: 10px;
+    }
+    main p{
+        margin: 0px 10px 0px 10px;
     }
     .food-poster h1{
-        font-size: 1.3em;
+        font-size: 1.1em;
         padding: 0px 10px 20px 10px;
     }
     .food-poster{
@@ -214,14 +221,25 @@ footer{
     .food-poster img{
         width: 100%;
     }
+    .upper-divider {
+        width: 45%;
+        margin: 30px auto 0px auto;
+    }
+    .upper-divider img{
+        width: 100%;
+    }
     .detalii-reteta{
         margin-bottom: 40px;
     }
     .summary{
-        margin-top: 50px;
+        margin: 30px auto 0px auto;
+        font-size: 0.9em;
+        width: 70%;
     }
     .ingredients{
-        margin-top: 50px;
+        margin: 50px auto 0px auto;
+        width: 80%;
+        font-size: 0.9em;
     }
     .divider{
         width: 56%;
@@ -254,10 +272,17 @@ footer{
         display: grid;
         grid-template-columns: 70% 30% ;
     }
-    .main{
+    main{
         margin:50px 0px 20px 20px; 
         text-align: justify;
         width: 90%;
+    }
+    main h2{
+        font-size: 1.5em;
+        margin-left: 10px;
+    }
+    main p{
+        margin-left: 10px;
     }
     .food-poster{
         margin: 30px 0px 50px 0px;
@@ -271,6 +296,13 @@ footer{
         font-size: 1.4em;
         padding: 5px 0px 25px 15px;
     }
+    .upper-divider{
+        width: 20%; 
+    }
+    .upper-divider img{
+        width: 100%; 
+        margin: 30px 0px 30px -65px;
+    }
     .detalii-reteta{
         display: grid;
         grid-template-columns: 50% 50%;
@@ -279,12 +311,15 @@ footer{
 
     }
     .ingredients{
-        margin-top: 0px;
+        margin: 0px;
+        width: 90%;
+        font-size: 1em;
     }
     .summary{
         height: fit-content;
         width:75%;
-        margin-top: 0px;
+        margin: 0px;
+        font-size: 1em;
     }
     .elements{
         margin-top: 5px;
@@ -293,11 +328,11 @@ footer{
         margin:50px 10px 20px 10px ; 
         font-size: 1.3em;
     }
-    .divider{
-        width: 20%; 
-    }
     .ads img{
         margin-bottom: 30px;
+    } 
+    .divider{
+        width: 20%; 
     }
     footer{
         margin: 100px 20px 0px 20px;

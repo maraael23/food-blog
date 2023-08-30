@@ -124,7 +124,10 @@ nav {
 .main p{
     line-height: 30px;
 }
+.ads img{
+    border: solid 3px #efc7c2d3;
 
+  }
 .divider{
     display:block; 
     margin-left: auto; 
@@ -226,9 +229,13 @@ footer{
     }
 
     .main{
-        margin: 30px 50px 20px 50px;
+        margin: 30px auto 20px auto;
+        width: 100%;
+     }
+     .food-links{
         display: grid;
-        grid-template-columns: 50% 50%;    }
+        grid-template-columns: 50% 50%;   
+     }
     .top-menu > * {
         width: 65px;
         text-align: center;
@@ -237,7 +244,7 @@ footer{
         font-size: 15px;
     }
     .card{
-        margin: 30px 15px 20px 0px;
+        margin: 30px 15px 20px 15px;
     }
     .seerecipe{
         font-size: 0.7em;
@@ -263,6 +270,9 @@ footer{
     .review{
         width: 75%;
         margin: 10px auto 20px auto;
+    }
+    .ads img{
+        margin: 15px;
     }
     .aside{
         text-align: center;
@@ -297,13 +307,16 @@ footer{
     }
     .main{
         margin:50px 0px 30px 20px; 
+        width: 100%;
+
+    }
+    .food-links{
         display: grid;
         grid-template-columns: 33% 33% 33%;
-        grid-template-rows: 25% 25% 25% 25%;
+  
+       
     }
-    .card{
-        margin: 30px 30px 160px 10px;
-    }
+
 
     .seerecipe{
         width:50%;
@@ -330,8 +343,15 @@ footer{
         margin: 30px auto 30px auto;
         width: 85%;
     }
+    .ads-grid{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .ads img{
+        margin: 15px;
+    }
     aside{
-        margin:50px 20px 20px 20px; 
+        margin:50px 20px 20px 70px; 
         font-size: 1.2em;
     }
    

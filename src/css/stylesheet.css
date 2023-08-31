@@ -103,6 +103,10 @@ nav {
     text-align: center;
     background-color: #efc7c2d3; 
     border-radius: 1%;
+    transition: all ease-in-out 0.3s;
+}
+.card:hover{
+    box-shadow: 1px 1px 15px rgb(170, 170, 170);
 }
 .food-img img{
     width:100%;
